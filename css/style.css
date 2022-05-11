@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: 
+    rgb(163, 191, 194);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}.logo{
+    float: left;
+    margin:5px 15px;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: rgb(192, 161, 181);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+nav ul li: hover{
+    color:purple;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(58, 77, 77);
+    background: linear-gradient(to right rgb(58, 77, 77))
+}
+.hero-text{
+    color: aquamarine;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+/* This is the end of hero text */
+/* This is the start of raw */
+.raw{
+    margin: 20px 20px;
+}
+.column{
+    width: 33.33%;
+    height: 300%;
+    float: left;
+    text-align: center;
+    padding: 35px 10px;
+    /* border 1px solid #000 ; */
+    
+}
+.row: after{
+    content:"";
+    display:table;
+    clear:both;
+}
+/* This is the ende of row */
+/* This is the start of an info section */
+.infobox{
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+    /* border:1px solid #000 ; */
+}
+.infotextbox{
+    padding: 70px 50px;
+    line-height: 200%;
+}
+.info-section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of an info section */
+/* This is the start of footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(161, 138, 183);
+}
+.footerbox{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 0px 20px;
+    text-align: center;
+    /* border:1px solid #000; */
+}
+.footerbox ul{
+    list-style-type: none;
+    margin-top: 60px;
+}
+.footerbox a{
+    text-decoration: none;
+
+}
+.footerbox ul li{
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+.footerbox ul li:hover{
+    color: darkmagenta;
+}
+.footerbox ul li:active{
+    color: cornflowerblue;
+}
+.footerbox p{
+    margin-top: 110px;
+}
+.socialmedia{
+    margin-top: 100px;
+}
+.socialmedia i{
+    margin: 0px 10px;
+}
+.socialmedia i{
+    color: #000;
+}
+.socialmedia i:hover{
+    color: darkmagenta;
+}
+.socialmedia i:active{
+    color: cornflowerblue;
+}
+/* This is the end of footer */
